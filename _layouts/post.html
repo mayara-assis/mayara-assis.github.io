@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="post">
+    <header class="post-header"
+        style="margin-bottom: 2rem; border-bottom: 1px solid var(--color-border); padding-bottom: 2rem;">
+        <a href="{{ '/blog' | relative_url }}"
+            style="display: inline-flex; align-items: center; gap: 0.5rem; margin-bottom: 2rem; font-size: 0.9rem; color: var(--color-text-muted); font-weight: 500;">
+            <i class="ph ph-arrow-left"></i> Voltar para o Blog
+        </a>
+        <h1 class="post-title" style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--color-primary);">{{
+            page.title }}</h1>
+        <p class="post-meta" style="color: var(--color-text-muted); font-size: 0.9rem;">
+            <i class="ph ph-calendar-blank" style="vertical-align: middle;"></i>
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+                {{ page.date | date: "%d/%m/%Y" }}
+            </time>
+        </p>
+    </header>
+
+    <div class="post-content" style="font-size: 1.1rem; line-height: 1.8;">
+        {{ content }}
+    </div>
+</article>

@@ -1,0 +1,13 @@
+title: Mayara Ferreira de Assis
+email: mayara.ferreira.assis@hotmail.com
+description: Fonoaudióloga, Mestra e Doutora pela UNESP. Especialista em percepção e produção da fala.
+baseurl: ""
+url: ""
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
