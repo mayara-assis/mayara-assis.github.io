@@ -11,6 +11,3 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-
-theme: ""
-remote_theme: ""
